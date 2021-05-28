@@ -130,18 +130,18 @@ namespace MDD4All.SpecIF.DataProvider.Integration
 		{
 			return _demoDataWriterList[0];
 
-			ISpecIfDataWriter result = _dataWriters[statement.DataSource.ID];
+			//ISpecIfDataWriter result = _dataWriters[statement.DataSource.ID];
 
-			return result;
+			//return result;
 		}
 
 		private ISpecIfDataWriter FindDataProviderForNode(Node node)
 		{
 			return _demoDataWriterList[0];
 
-			ISpecIfDataWriter result = _dataWriters[node.DataSource.ID];
+			//ISpecIfDataWriter result = _dataWriters[node.DataSource.ID];
 
-			return result;
+			//return result;
 		}
 
 		//public override void UpdateStatement(Statement statement)

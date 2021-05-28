@@ -8,6 +8,7 @@ using MDD4All.SpecIF.DataProvider.WebAPI;
 using MDD4All.SpecIF.ServiceDataProvider;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
 namespace MDD4All.SpecIF.DataProvider.Integration
@@ -131,8 +132,6 @@ namespace MDD4All.SpecIF.DataProvider.Integration
 		public override Resource GetResourceByKey(Key key)
 		{
             Resource result = null;
-
-            Resource cachedResource = null;
 
             if (_cacheActive)
             {
@@ -303,7 +302,7 @@ namespace MDD4All.SpecIF.DataProvider.Integration
 				}
 				catch(Exception exception)
                 {
-
+					Debug.WriteLine(exception);
                 }
 			}
 
