@@ -177,12 +177,6 @@ namespace MDD4All.SpecIF.DataProvider.Integration
             return result;
         }
 
-
-        protected override IdentifiableElement GetItemWithLatestRevisionInBranch<T>(string id, string branch)
-        {
-            throw new NotImplementedException();
-        }
-
         public override void AddNodeAsFirstChild(string parentNodeID, Node newNode)
         {
             ISpecIfDataWriter mongodbDataWriter = _dataWriters["{67FE892C-7EB1-45AD-9259-6BE910841A3A}"];
