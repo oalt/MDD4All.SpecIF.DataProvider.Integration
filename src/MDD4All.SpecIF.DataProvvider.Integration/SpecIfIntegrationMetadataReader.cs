@@ -3,6 +3,7 @@
  */
 using MDD4All.SpecIF.DataModels;
 using MDD4All.SpecIF.DataModels.Service;
+using MDD4All.SpecIF.DataProvider.Base;
 using MDD4All.SpecIF.DataProvider.Contracts;
 using MDD4All.SpecIF.DataProvider.WebAPI;
 using MDD4All.SpecIF.ServiceDataProvider;
