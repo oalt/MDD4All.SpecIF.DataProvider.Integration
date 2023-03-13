@@ -300,5 +300,10 @@ namespace MDD4All.SpecIF.DataProvider.Integration
         {
             throw new NotImplementedException();
         }
+
+        public override void NotifyMetadataChanged()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
